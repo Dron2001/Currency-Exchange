@@ -1,0 +1,21 @@
+@import '~/App.scss';
+
+.wrapperSelect {
+  width: 315px;
+
+  div[class='ant-select-selector'] {
+    @include display();
+    height: 45px !important;
+    border-color: $input-color !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    padding: 12px 20px !important;
+
+    span[class='ant-select-selection-item'] {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 20px;
+      color: $brown;
+    }
+  }
+}

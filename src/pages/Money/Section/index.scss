@@ -1,0 +1,16 @@
+.boxSection {
+  width: 315px;
+
+  .title {
+    margin-bottom: 36px;
+    text-transform: capitalize;
+  }
+
+  &:first-child {
+    margin-right: 65px;
+  }
+
+  .input {
+    margin-top: 20px;
+  }
+}

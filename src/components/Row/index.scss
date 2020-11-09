@@ -1,0 +1,5 @@
+@import '~/App.scss';
+
+.wrapperRow {
+  @include display(row, space-between);
+}

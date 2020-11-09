@@ -1,0 +1,9 @@
+@import '~/App.scss';
+
+.wrapperAntdInput {
+  height: 45px !important;
+  border-color: $input-color !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  padding: 12px 20px !important;
+}

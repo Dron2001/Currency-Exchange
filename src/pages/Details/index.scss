@@ -1,0 +1,27 @@
+@import '~/App.scss';
+
+.wrapperDetails {
+  .title {
+    margin-bottom: 36px;
+  }
+
+  .row {
+    margin-top: 33px;
+  }
+
+  .titleDetail, .valueDetail {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .titleDetail {
+    line-height: 19px;
+    color: #818181;
+    margin: 0;
+  }
+  
+  .valueDetail {
+    line-height: 19px;
+    color: $brown;
+  }
+}

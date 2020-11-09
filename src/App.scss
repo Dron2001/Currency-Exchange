@@ -1,0 +1,31 @@
+$green: #58B4AE;
+$brown: #3A3A3A;
+$input-color: #CBCBCB;
+
+*, p, h1, h2 h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+@mixin display($direction: row, $justify-content: center, $align-items: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
